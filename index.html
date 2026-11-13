@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b2d">
+<title>مركز إدارة المجموعة | Group Control Center</title>
+<style>
+:root{--navy:#101b2d;--navy2:#1e3554;--gold:#d8b45c;--bg:#f3f5f8;--ink:#263449;--muted:#718096;--line:#dce3ec;--white:#fff;--green:#16834a;--amber:#946200;--red:#b42318}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.75}
+header{background:linear-gradient(125deg,var(--navy),var(--navy2));color:#fff;padding:28px 5%;border-bottom:4px solid var(--gold)}
+.wrap{width:min(1120px,92%);margin:auto}.brand{color:#f4d98e;font-weight:800;font-size:13px;letter-spacing:2px}.head{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}h1{font-size:clamp(25px,4vw,38px);margin:5px 0;color:#fff}.sub{color:#d7e0ec;margin:0}.snapshot{font-size:12px;color:#d7e0ec;margin-top:8px}
+main{padding:26px 0 48px}.notice{background:#fff8e7;border:1px solid #ead39b;color:#735719;padding:13px 16px;border-radius:12px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:0 5px 18px #13243b0b}
+.card h2{font-size:21px;color:var(--navy);margin:0 0 4px}.en{font-size:12px;color:var(--muted);direction:ltr;text-align:right}
+.status{display:inline-block;border-radius:30px;padding:3px 10px;font-size:12px;font-weight:bold;margin:12px 0 8px}
+.ok{background:#e3f5e9;color:var(--green)}.partial{background:#fff2d3;color:var(--amber)}.blocked{background:#fde9e7;color:var(--red)}.neutral{background:#edf1f6;color:#48576a}
+.card p{margin:5px 0;color:#536175;font-size:14px}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.links a{color:#173b64;text-decoration:none;border:1px solid #cbd6e3;border-radius:8px;padding:7px 10px;font-size:13px}.links a:hover{background:#eef3f8}
+h3{color:var(--navy);margin:28px 0 12px}.steps{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 22px}.steps ol{margin:0;padding-right:20px}.steps li{margin:7px 0}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+@media(max-width:600px){header{padding:22px 4%}.wrap{width:94%}.card{padding:17px}}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><div><div class="brand">GROUP CONTROL CENTER</div><h1>مركز إدارة المجموعة</h1><p class="sub">بوابة موحدة لمتابعة المشاريع الأربعة دون دمج قواعد بياناتها.</p><div class="snapshot">لقطة حالة أولية — 13 نوفمبر 2026</div></div><div><span class="status neutral">وضع القراءة فقط</span></div></div></header>
+<main class="wrap">
+<div class="notice"><strong>تنبيه:</strong> هذه النسخة الأولى تجمع روابط المشاريع ونتائج الفحص المؤكدة. الحالات المعروضة لقطة موثقة وليست مراقبة لحظية؛ لم تُضف أي مفاتيح سرية أو صلاحيات إدارية أو اتصال مباشر بقواعد البيانات.</div>
+<section class="grid">
+<article class="card">
+<h2>مكسب عرب</h2><div class="en">MAKSA ARAB</div><span class="status ok">الخلفية متاحة</span>
+<p>موقع المنصة موجود على GitHub Pages. قاعدة Supabase النشطة المرتبطة بالكود تضم خمسة جداول، ووظيفة maksa-ai نشطة بالإصدار 12.</p>
+<p>ملاحظة: يوجد مشروع Supabase قديم غير نشط؛ لم يتم تشغيله أو تعديل بياناته.</p>
+<div class="links"><a href="https://ramrostom507-eng.github.io/maksa-platform/" target="_blank" rel="noopener">فتح الموقع</a><a href="https://github.com/ramrostom507-eng/maksa-platform" target="_blank" rel="noopener">المستودع</a><a href="https://supabase.com/dashboard/project/nvpcensxvgmxdpqnenrw" target="_blank" rel="noopener">Supabase</a></div>
+</article>
+<article class="card">
+<h2>أومنيفكس</h2><div class="en">OMNIVEX</div><span class="status ok">نشر GitHub Pages ناجح</span>
+<p>قاعدة Supabase نشطة وبها 20 جدولاً مع RLS مفعّل، وثلاث وظائف خلفية نشطة: AI وWorker وAdmin.</p>
+<p>آخر نشر موثق اكتمل بنجاح في 13 نوفمبر 2026. يلزم اختبار الاستخدام الفعلي للذكاء الاصطناعي من جلسة مستخدم.</p>
+<div class="links"><a href="https://github.com/ramrostom507-eng/omnivex" target="_blank" rel="noopener">المستودع</a><a href="https://github.com/ramrostom507-eng/omnivex/actions/runs/43474782356" target="_blank" rel="noopener">نتيجة النشر</a><a href="https://supabase.com/dashboard/project/zhtzzhjiochbfopxcuqj" target="_blank" rel="noopener">Supabase</a></div>
+</article>
+<article class="card">
+<h2>أومنيفكس AI</h2><div class="en">OMNIVEX AI PROVIDER</div><span class="status partial">النشر غير مؤكد</span>
+<p>مستودع مستقل لخدمة الذكاء الاصطناعي، يحتوي ملفات Worker وتهيئة Wrangler. لم يتم التحقق بعد من النشر على Cloudflare أو من إعداد أسرار المزودين.</p>
+<div class="links"><a href="https://github.com/ramrostom507-eng/omnivex-ai-provider" target="_blank" rel="noopener">المستودع</a></div>
+</article>
+<article class="card">
+<h2>العقارات السورية</h2><div class="en">SYRIA REAL ESTATE</div><span class="status blocked">الربط الخلفي يحتاج تحققاً</span>
+<p>ملفات الموقع وملف SQL موجودة في GitHub. تعذر الوصول إلى مشروع Supabase المشار إليه في الكود بسبب عدم توفر الصلاحية؛ لذلك لم يتم تأكيد تنفيذ المخطط أو حالة التشغيل.</p>
+<div class="links"><a href="https://github.com/ramrostom507-eng/-syria-real-estate" target="_blank" rel="noopener">المستودع</a><a href="https://supabase.com/dashboard/project/nmhizdassdyhrccvpvqy" target="_blank" rel="noopener">رابط مشروع Supabase</a></div>
+</article>
+</section>
+<h3>خطة استكمال المجموعة</h3>
+<section class="steps"><ol>
+<li>تثبيت صلاحية الوصول إلى Supabase الخاص بالعقارات السورية والتحقق من الجداول والسياسات دون تغيير البيانات.</li>
+<li>التحقق من نشر OMNIVEX AI على Cloudflare واختبار نقطة الصحة ومزودي الذكاء الاصطناعي دون كشف الأسرار.</li>
+<li>اختبار تسجيل الدخول والوظائف الأساسية والذكاء الاصطناعي في مكسب عرب وOMNIVEX من جلسات فعلية.</li>
+<li>توسيع هذه اللوحة تدريجياً إلى مراقبة آمنة للقراءة فقط بعد توفر مصادر حالة موثوقة لكل منصة.</li>
+</ol></section>
+</main>
+<footer>مجموعة المشاريع — لوحة متابعة مستقلة للقراءة فقط. لا توحّد قواعد البيانات ولا تنقل بيانات بينها.</footer>
+</body></html>
